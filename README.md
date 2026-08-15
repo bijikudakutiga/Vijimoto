@@ -40,4 +40,3 @@ kerangka — dikerjakan bertahap menu per menu.
 Hubungkan repo GitHub ke Cloudflare Pages, gunakan preset "Next.js", lalu
 tambahkan environment variable `NEXT_PUBLIC_SUPABASE_URL` dan
 `NEXT_PUBLIC_SUPABASE_ANON_KEY` di pengaturan project Cloudflare Pages.
-  tes 
