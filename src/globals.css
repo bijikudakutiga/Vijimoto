@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cream text-ink font-sans;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white border border-line rounded-card p-6;
+  }
+  .nav-item {
+    @apply flex items-center gap-3 px-4 py-2.5 rounded-pill text-sm font-medium text-[#E9E2D8]
+           hover:bg-white/10 transition-colors cursor-pointer;
+  }
+  .nav-item-active {
+    @apply bg-orange text-white shadow-[0_4px_14px_rgba(232,93,44,0.35)];
+  }
+  .badge-red    { @apply bg-status-red-bg text-status-red-tx; }
+  .badge-amber  { @apply bg-status-amber-bg text-status-amber-tx; }
+  .badge-green  { @apply bg-status-green-bg text-status-green-tx; }
+}
