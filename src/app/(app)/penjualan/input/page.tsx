@@ -22,7 +22,7 @@ export default async function InputPenjualanPage() {
     <>
       <Topbar
         title="Input Penjualan"
-        subtitle="Buat transaksi penjualan baru — status otomatis \"terproses\" setelah disimpan"
+        subtitle={'Buat transaksi penjualan baru — status otomatis "terproses" setelah disimpan'}
         userInitial={user?.fullName?.[0]?.toUpperCase() ?? "U"}
       />
       <SalesInputForm
